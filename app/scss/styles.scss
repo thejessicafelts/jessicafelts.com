@@ -1,0 +1,12 @@
+@import 'variables';
+
+@import 'partials/header';
+@import 'partials/topbar';
+@import 'partials/navigation';
+@import 'partials/hero';
+
+@import 'global';
+
+body {
+  min-height: 100vw;
+}

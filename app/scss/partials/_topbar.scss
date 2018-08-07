@@ -1,0 +1,28 @@
+#top-bar {
+  background: $black;
+  color: $white;
+  padding: 7px 0 5px;
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    .notice {
+      font-size: 14px;
+      font-weight: 100;
+      letter-spacing: 1px;
+      .icon {
+        color: $coral;
+        margin-right: 5px;
+      }
+    }
+    button {
+      background: none;
+      border: none;
+      color: $white;
+      cursor: pointer;
+      font-weight: 100;
+      &:hover {
+        color: $lightgrey;
+      }
+    }
+  }
+}

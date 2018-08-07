@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a,
+a:active,
+a:hover,
+a:visited {
+  color: $coral !important;
+  text-decoration: none !important;
+}
+
+li {
+  list-style: none;
+}
