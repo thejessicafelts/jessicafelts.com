@@ -15,6 +15,8 @@
       display: inline-block;
       position: absolute;
       transition: ease-in-out 0.35s;
+      text-align: center;
+      width: calc(100vw / 3);
     }
     .front {
       font-size: 40px;
@@ -25,7 +27,6 @@
     .back {
       padding: 30px;
       opacity: 0;
-      text-align: center;
     }
     &:hover {
       .front,
