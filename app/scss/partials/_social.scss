@@ -1,0 +1,20 @@
+#social {
+  background: $coral;
+  padding: 40px 0 35px;
+  nav#social-nav {
+    ul {
+      margin: 0 auto;
+      width: calc(100vw / 3);
+      justify-content: space-around;
+      li {
+        a i {
+          color: $white;
+          opacity: 0.7;
+          &:hover {
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
+}
