@@ -1,17 +1,20 @@
-# README
+# www.jessicafelts.com
+
+This project is my personal website, which is nearing completion. If you're interested in seeing the site as-is currently, please follow the directions below to build and view the site locally.
+
+---
 
 ### Get Started
 
 #### Running the project locally
 
-After cloning:
+ To clone -
+
+ * ```git clone https://www.github.com/thejessicafelts/jessicafelts.com.git```
+
+After cloning -
 
 * ```npm install```
 * ```gulp```
 
-To build, run:
-
-```gulp build```
-
-!!! The build will clean the `/dist` folder. Please DON'T place any code or
-file inside `/dist` folder. They are going to all removed.
+The project will build to ```localhost:8008```
