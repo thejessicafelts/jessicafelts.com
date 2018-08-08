@@ -1,0 +1,12 @@
+footer#primary {
+  background: $black;
+  border-bottom: 5px solid $coral;
+  color: $white;
+  padding: 25px 0 10px;
+  .notice {
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+}
