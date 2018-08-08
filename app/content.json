@@ -115,5 +115,59 @@
         "class": "organic logo"
       }
     }
+  },
+  "social": {
+    "social-1": {
+      "name": "Facebook",
+      "class": "facebook",
+      "link": {
+        "path": "https://www.facebook.com/thejessicafelts",
+        "title": "Facebook"
+      },
+      "icon": "facebook"
+    },
+    "social-2": {
+      "name": "Twitter",
+      "class": "twitter",
+      "link": {
+        "path": "https://www.twitter.com/thejessicafelts",
+        "title": "Twitter"
+      },
+      "icon": "twitter"
+    },
+    "social-3": {
+      "name": "Instagram",
+      "class": "instagram",
+      "link": {
+        "path": "https://www.instagram.com/thejessicafelts",
+        "title": "Instagram"
+      },
+      "icon": "instagram"
+    },
+    "social-4": {
+      "name": "LinkedIn",
+      "class": "linkedin",
+      "link": {
+        "path": "https://www.linkedin.com/in/thejessicafelts",
+        "title": "LinkedIn"
+      },
+      "icon": "linkedin"
+    },
+    "social-5": {
+      "name": "GitHub",
+      "class": "github",
+      "link": {
+        "path": "https://www.github.com/thejessicafelts",
+        "title": "GitHub"
+      },
+      "icon": "github"
+    }
+  },
+  "footer": {
+    "copyright": {
+      "icon": "Copyright &copy;",
+      "name": "Jessica Felts",
+      "rights": "All Rights Reserved."
+    }
   }
 }
