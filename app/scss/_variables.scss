@@ -1,6 +1,7 @@
 // Colors
 
 $white: rgb(250,250,250);
+$offwhite: darken($white,5%);
 $black: rgb(50,50,50);
 
 $grey: rgb(130,130,130);
@@ -10,4 +11,19 @@ $lightgrey: lighten($grey,15%);
 $coral: rgb(254,90,91);
 $cyan: rgb(90,254,253);
 
+$html: #F05E27;
+$css: #2AA0DA;
+$javascript: #F1B524;
+$gulp: #E54247;
+$git: #EE472D;
+$accessibility: #0368B6;
 // Fonts
+
+
+// Screen SIZES
+
+$extra-large: 1200px;
+$large: 1199px;
+$medium: 991px;
+$small: 767px;
+$extra-small: 575px;

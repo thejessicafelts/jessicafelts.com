@@ -7,5 +7,113 @@
     "description": "The personal website of developer Jessica Felts.",
     "author": "Jessica Felts-Jensen",
     "title": "Jessica Felts | Front-End Developer"
+  },
+  "mission": {
+    "title": "I once built a website...",
+    "copy": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  },
+  "skills": {
+    "title": "Tools of the trade...",
+    "copy": "",
+    "skill-1": {
+      "name": "HTML",
+      "experience": "13 years",
+      "copy": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "class": "html skill",
+      "link": {
+        "title": "HTML",
+        "path": "/skills/html"
+      }
+    },
+    "skill-2": {
+      "name": "CSS",
+      "experience": "10 years",
+      "copy": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "class": "css skill",
+      "link": {
+        "title": "CSS",
+        "path": "/skills/css"
+      }
+    },
+    "skill-3": {
+      "name": "JavaScript",
+      "experience": "6 years",
+      "copy": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "class": "javascript skill",
+      "link": {
+        "title": "JavaScript",
+        "path": "/skills/javascript"
+      }
+    },
+    "skill-4": {
+      "name": "Gulp",
+      "experience": "2 years",
+      "copy": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "class": "gulp skill",
+      "link": {
+        "title": "Task Runners",
+        "path": "/skills/task-runners"
+      }
+    },
+    "skill-5": {
+      "name": "Git",
+      "experience": "4 years",
+      "copy": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "class": "git skill",
+      "link": {
+        "title": "Version Control",
+        "path": "/skills/version-control"
+      }
+    },
+    "skill-6": {
+      "name": "Accessibility",
+      "experience": "2 years",
+      "copy": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "class": "accessibility skill",
+      "link": {
+        "title": "Accessibility",
+        "path": "/skills/accessibility"
+      }
+    }
+  },
+  "employers": {
+    "title": "I've worked with...",
+    "copy": "",
+    "employer-1": {
+      "name": "Lyons Consulting Group",
+      "dates": {
+        "start": "2014",
+        "end": "2016"
+      },
+      "link": "/employers/lyonscg",
+      "logo": {
+        "path": "/images/lyonscg-logo.png",
+        "class": "lyonscg logo"
+      }
+    },
+    "employer-2": {
+      "name": "iwerk",
+      "dates": {
+        "start": "2017",
+        "end": "2017"
+      },
+      "link": "/employers/iwerk",
+      "logo": {
+        "path": "/images/iwerk-logo.png",
+        "class": "iwerk logo"
+      }
+    },
+    "employer-3": {
+      "name": "Organic",
+      "dates": {
+        "start": "2017",
+        "end": "Present"
+      },
+      "link": "/employers/organic",
+      "logo": {
+        "path": "/images/organic-logo.png",
+        "class": "organic logo"
+      }
+    }
   }
 }

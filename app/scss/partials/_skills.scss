@@ -1,0 +1,50 @@
+#skills {
+  overflow: hidden;
+  .skill {
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    float: left;
+    height: calc((100vh - 80px) / 3);
+    min-height: 200px;
+    justify-content: center;
+    width: calc(100vw / 3);
+    .front,
+    .back {
+      display: inline-block;
+      position: absolute;
+      transition: ease-in-out 0.35s;
+    }
+    .front {
+      font-size: 40px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      opacity: 1;
+    }
+    .back {
+      padding: 30px;
+      opacity: 0;
+      text-align: center;
+    }
+    &:hover {
+      .front,
+      .back {
+        position: absolute;
+        transition: ease-in-out 0.35s;
+      }
+      .front {
+        opacity: 0;
+      }
+      .back {
+        opacity: 1;
+      }
+    }
+    &.html { background: $html; }
+    &.css { background: $css; }
+    &.javascript { background: $javascript; }
+    &.gulp { background: $gulp; }
+    &.git { background: $git; }
+    &.accessibility { background: $accessibility; }
+  }
+}

@@ -4,9 +4,12 @@
 @import 'partials/topbar';
 @import 'partials/navigation';
 @import 'partials/hero';
+@import 'partials/mission';
+@import 'partials/skills';
+@import 'partials/employers';
 
 @import 'global';
 
 body {
-  min-height: 100vw;
+  min-height: 500vh;
 }

@@ -1,0 +1,23 @@
+#employers {
+  background: $white;
+  border-top: 5px solid $coral;
+  padding: 50px 0;
+  .employers-list {
+    padding: 25px 0 15px;
+  }
+  img.logo {
+    display: block;
+    filter: grayscale(100%);
+    height: 100px;
+    &.iwerk {
+      margin: 0 auto;
+    }
+    &.organic {
+      filter: contrast(10%);
+    }
+    &:hover {
+      cursor: pointer;
+      filter: grayscale(0%) contrast(100%);
+    }
+  }
+}
