@@ -1,1 +1,28 @@
-New Site, Who Dis?
+<!DOCTYPE html>
+<html lang="{{language.code}}">
+  <head>
+    <meta charset="{{meta.charset}}">
+    <meta name="description" content="{{meta.description}}">
+    <meta name="author" content="{{meta.author}}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{articles.article-01.title}} | {{meta.title}}</title>
+    <link rel="stylesheet" type="text/css" href="../styles.css">
+    {{> head-inner }}
+  </head><!-- end HEAD -->
+  <body>
+
+    {{> global/header}}
+
+    {{#with articles.article-01}}
+    <article id="{{id}}" class="article">
+
+      {{> articles/article-hero }}
+
+    </article>
+    {{/with}}
+
+    {{> global/social }}
+    {{> global/footer }}
+
+  </body><!-- end BODY -->
+</html>
