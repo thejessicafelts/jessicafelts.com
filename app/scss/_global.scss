@@ -9,7 +9,7 @@ a,
 a:active,
 a:hover,
 a:visited {
-  color: $coral;
+  color: $coral !important;
   text-decoration: none !important;
 }
 
@@ -38,6 +38,15 @@ h2.section-title {
   text-align: center;
 }
 
+h2.article-title {
+  color: $white;
+  font-size: 40px;
+  font-family: $handwritten;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
 h3.subheading {
   color: $white;
   font-size: 12px;
@@ -57,4 +66,22 @@ p.section-copy {
   &:last-child {
     margin-bottom: 0;
   }
+}
+
+p.article-blurb,
+p.tweet-this a,
+p.read-this a {
+  color: $white;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  line-height: 1.75;
+  i {
+    font-size: 22px;
+    margin-right: 5px;
+  }
+}
+
+p.tweet-this a:hover {
+  color: $twitter !important;
 }
