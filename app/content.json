@@ -10,7 +10,13 @@
   },
   "mission": {
     "title": "I once built a website...",
-    "copy": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    "copy": {
+      "p1": "My name is Jessica Felts, and I grew up in a very small town, in a very rural part of Northern Michigan. I am front-end web developer, based in the Metro Detroit area, who has a passion for beautifully designed, user-friendly websited, developed with best practices in mind. As you'll see below, I am proficient in HTML, CSS, JavaScript, and PHP; and have experience in web design, and eCommerce development.",
+      "p2": "My professional journey started in 2014, when I snagged an internship with eCommerce consulting giant Lyons Consulting Group. There, I served as an Applications Engineer intern, and worked with various high-level clients, completing significant work in the areas of front-end development, and content management, using the Demandware Business Manager.",
+      "p3": "I left Lyons Consulting Group in 2016, and began working full time as a Digital Solutions Consultant, with a small group of clients, focusing on webinar design, development, and maintenance. My belief is that having a strong and effective online presence is key to the success of any modern company or professional individual, and I strived to provide that for my clients.",
+      "p4": "In 2017, I re-entered the agency world to accept a position at Royal Oak-based iwerk, as a Software Developer, specializing in WordPress development. There, I built out the front-end experience of a custom intranet for global advertising agency Jack Morton, completely from scratch. After completing this project, I left iwerk, and joined the team at Organic - where I remain currently, working exclusively on various projects for Wells Fargo. Since starting with Organic, I have spearheaded the development efforts for three different websites, and serve as lead developer on a fourth. I also commonly work in tandem with other developers on my team, to support them in their development efforts.",
+      "p5": "Developing (and even designing) web experiences is something I am very passionate about. In this day and age, everything is so digitally focused, that if you or your business don't have a website, you practically cease to exist - or at the very least, appear to lack credibility. I love keeping up with the latest and greatest our industry has to offer, and I am committed to creating the best web experiences I can, each and every time I am tasked with a project. I look forward to what the future has to offer me, and can't wait to see where this crazy industry takes me."
+    }
   },
   "skills": {
     "title": "Tools of the trade...",
@@ -46,6 +52,16 @@
       }
     },
     "skill-4": {
+      "name": "PHP",
+      "experience": "3 years",
+      "copy": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "class": "php skill",
+      "link": {
+        "title": "PHP",
+        "path": "/skills/php"
+      }
+    },
+    "skill-5": {
       "name": "Gulp",
       "experience": "2 years",
       "copy": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -55,7 +71,17 @@
         "path": "/skills/task-runners"
       }
     },
-    "skill-5": {
+    "skill-6": {
+      "name": "Demandware",
+      "experience": "2 years",
+      "copy": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "class": "ecommerce skill",
+      "link": {
+        "title": "eCommerce",
+        "path": "/skills/ecommerce"
+      }
+    },
+    "skill-7": {
       "name": "Git",
       "experience": "4 years",
       "copy": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -65,7 +91,7 @@
         "path": "/skills/version-control"
       }
     },
-    "skill-6": {
+    "skill-8": {
       "name": "Accessibility",
       "experience": "2 years",
       "copy": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -73,6 +99,16 @@
       "link": {
         "title": "Accessibility",
         "path": "/skills/accessibility"
+      }
+    },
+    "skill-9": {
+      "name": "Web Design",
+      "experience": "7 years",
+      "copy": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "class": "webdesign skill",
+      "link": {
+        "title": "Web Design",
+        "path": "/skills/webdesign"
       }
     }
   },
@@ -85,7 +121,7 @@
         "start": "2014",
         "end": "2016"
       },
-      "link": "/employers/lyonscg",
+      "link": "http://www.lyonscg.com/",
       "logo": {
         "path": "/images/lyonscg-logo.png",
         "class": "lyonscg logo"
@@ -97,7 +133,7 @@
         "start": "2017",
         "end": "2017"
       },
-      "link": "/employers/iwerk",
+      "link": "http://www.iwerk.com/",
       "logo": {
         "path": "/images/iwerk-logo.png",
         "class": "iwerk logo"
@@ -109,7 +145,7 @@
         "start": "2017",
         "end": "Present"
       },
-      "link": "/employers/organic",
+      "link": "http://www.organic.com/",
       "logo": {
         "path": "/images/organic-logo.png",
         "class": "organic logo"
@@ -168,6 +204,19 @@
       "icon": "Copyright &copy;",
       "name": "Jessica Felts",
       "rights": "All Rights Reserved."
+    }
+  },
+  "articles": {
+    "article-01": {
+      "id": "article-01",
+      "title": "New Site, Who Dis?",
+      "blurb": "In this day and age, it seems like everyone needs a website. And while I stress the importance to everyone else, I didn't have a proper site, myself. So I threw together an MVP in 72 hours. Let me show you how!",
+      "hero-img": "/images/articles/hero-01.jpg",
+      "link": {
+        "path": "/articles/new-site-who-dis.html",
+        "title": "New Site, Who Dis?"
+      },
+      "more": "Read the Article"
     }
   }
 }
