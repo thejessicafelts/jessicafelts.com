@@ -1,18 +1,17 @@
 #hero {
-  background: linear-gradient(rgba($black,0.5), rgba($black,0.5)), url('/images/hero-background.jpg') no-repeat center center;
-  background-size: cover;
   margin-top: 80px;
-  height: calc(100vh - 80px);
-  .wrapper {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    justify-content: center;
-    margin: auto;
-  }
-  @media (max-width: $large) {
-    height: 56.25vw;
-    max-height: 100vh;
+  #article-hero {
+    .wrapper {
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      text-align: center;
+      .overlay {
+        background: rgba($black, 0.75);
+        height: 100%;
+        padding: 150px 0 130px;
+        width: 100%;
+      }
+    }
   }
 }

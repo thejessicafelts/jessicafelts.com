@@ -1,10 +1,20 @@
 <div id="hero">
-  <div class="container wrapper">
-    <div class="">
-      Hello
+  {{#with articles.article-01}}
+    <div id="article-hero" class="">
+      <div class="wrapper" style="background-image: url('{{{hero-img}}}');">
+        <div class="overlay">
+          <div class="container">
+            <h2 class="article-title">{{{title}}}</h2>
+            <p class="article-blurb">{{{blurb}}}</p>
+            <p class="read-this">
+              <a href="{{{link.path}}}" title="{{{title}}}">
+                <i class="fa fa-book fa-x2" aria-hidden="true"></i>
+                {{{more}}}
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="">
-      World!
-    </div>
-  </div>
-</div><!-- end #hero -->
+  {{/with}}
+</div>
