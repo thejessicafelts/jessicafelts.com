@@ -18,7 +18,7 @@
         }
       }
       li.list-item a {
-        color: rgba($black,0.5);
+        color: rgba($black,0.5) !important;
         padding: 5px 7px;
         &:hover {
           background: $coral;
@@ -30,7 +30,7 @@
       }
       li.active a {
         background: $coral;
-        color: $white;
+        color: $white !important;
         &:hover {
           color: $white !important;
         }
