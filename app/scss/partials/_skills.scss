@@ -9,14 +9,14 @@
     height: calc((100vh - 80px) / 3);
     min-height: 300px;
     justify-content: center;
-    width: calc(100vw / 3);
+    width: 33.33%;
     .front,
     .back {
       display: inline-block;
       position: absolute;
       transition: ease-in-out 0.35s;
       text-align: center;
-      width: calc(100vw / 3);
+      width: 33.33%;
     }
     .front {
       font-size: 40px;
