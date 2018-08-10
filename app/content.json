@@ -14,8 +14,10 @@
       "p1": "My name is Jessica Felts, and I grew up in a very small town, in a very rural part of Northern Michigan. I am front-end web developer, based in the Metro Detroit area, who has a passion for beautifully designed, user-friendly websited, developed with best practices in mind. As you'll see below, I am proficient in HTML, CSS, JavaScript, and PHP; and have experience in web design, and eCommerce development.",
       "p2": "My professional journey started in 2014, when I snagged an internship with eCommerce consulting giant Lyons Consulting Group. There, I served as an Applications Engineer intern, and worked with various high-level clients, completing significant work in the areas of front-end development, and content management, using the Demandware Business Manager.",
       "p3": "I left Lyons Consulting Group in 2016, and began working full time as a Digital Solutions Consultant, with a small group of clients, focusing on webinar design, development, and maintenance. My belief is that having a strong and effective online presence is key to the success of any modern company or professional individual, and I strived to provide that for my clients.",
-      "p4": "In 2017, I re-entered the agency world to accept a position at Royal Oak-based iwerk, as a Software Developer, specializing in WordPress development. There, I built out the front-end experience of a custom intranet for global advertising agency Jack Morton, completely from scratch. After completing this project, I left iwerk, and joined the team at Organic - where I remain currently, working exclusively on various projects for Wells Fargo. Since starting with Organic, I have spearheaded the development efforts for three different websites, and serve as lead developer on a fourth. I also commonly work in tandem with other developers on my team, to support them in their development efforts.",
-      "p5": "Developing (and even designing) web experiences is something I am very passionate about. In this day and age, everything is so digitally focused, that if you or your business don't have a website, you practically cease to exist - or at the very least, appear to lack credibility. I love keeping up with the latest and greatest our industry has to offer, and I am committed to creating the best web experiences I can, each and every time I am tasked with a project. I look forward to what the future has to offer me, and can't wait to see where this crazy industry takes me."
+      "p4": "In 2017, I re-entered the agency world to accept a position at Royal Oak-based iwerk, as a Software Developer, specializing in WordPress development. There, I built out the front-end experience of a custom intranet for global advertising agency Jack Morton, completely from scratch.",
+      "p5": "After completing this project, I left iwerk, and joined the team at Organic - where I remain currently - working exclusively on various projects for Wells Fargo. Since starting with Organic, I have spearheaded the development efforts for three different websites, and serve as lead developer on a fourth. I also commonly work in tandem with other developers on my team, to support them in their development efforts.",
+      "p6": "Developing (and even designing) web experiences is something I am very passionate about. In this day and age, everything is so digitally focused, that if a business doesn't have a website, they practically cease to exist - or at the very least, appear to lack credibility (you know you've judged a company on wether they have a website, or not - be honest).",
+      "p7": "I love keeping up with the latest and greatest our industry has to offer, and I am committed to creating the best web experiences I can, each and every time I am tasked with a project. I look forward to what the future has to offer me, and can't wait to see where this crazy industry takes me."
     }
   },
   "skills": {
@@ -24,7 +26,7 @@
     "skill-1": {
       "name": "HTML",
       "experience": "13 years",
-      "copy": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "copy": "Self-taught since 2005. Currently focusing on writing clean, well commented, symatic HTML, to meet HTML5 Standards. Experience with HTML Templating languages includes Jade (now Pug), and Handlebars, which this site is built with.",
       "class": "html skill",
       "link": {
         "title": "HTML",
@@ -34,7 +36,7 @@
     "skill-2": {
       "name": "CSS",
       "experience": "10 years",
-      "copy": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "copy": "Self-taught since 2008. Currently learning more about CSS Grid, and CSS Filters. Expeience with CSS Preprocessors includes both Sass and Less, with personal preference given to Sass. Experience with CSS Frameworks includes both Bootstrap and Foundations, with personal preference given to Bootstrap. I also really love Flexbox.",
       "class": "css skill",
       "link": {
         "title": "CSS",
@@ -44,7 +46,7 @@
     "skill-3": {
       "name": "JavaScript",
       "experience": "6 years",
-      "copy": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "copy": "Self taught since 2012. Experience includes extensive use of both plain/vanilla JavaScript for personal projects, and jQuery for client-facing projects. Experience with JavaScript frameworks includes very minimal exploration of React, Angular, and Vue.",
       "class": "javascript skill",
       "link": {
         "title": "JavaScript",
@@ -54,7 +56,7 @@
     "skill-4": {
       "name": "PHP",
       "experience": "3 years",
-      "copy": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "copy": "Self-taught since 2015. Currently focusing on PHP as it is revelent to WordPress development. Experience with PHP Frameworks includes minimal experience with Laravel.",
       "class": "php skill",
       "link": {
         "title": "PHP",
@@ -62,9 +64,9 @@
       }
     },
     "skill-5": {
-      "name": "Gulp",
+      "name": "Task Running",
       "experience": "2 years",
-      "copy": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "copy": "Self taught since 2016. Currently using Gulp on both personal and professional projects, to compile Sass files to CSS, and multiple JavaScript files down to a single main file. Also using Gulp to set up a live-reloading web server for local development. Minimal experience with Grunt.",
       "class": "gulp skill",
       "link": {
         "title": "Task Runners",
@@ -72,9 +74,9 @@
       }
     },
     "skill-6": {
-      "name": "Demandware",
-      "experience": "2 years",
-      "copy": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "name": "eCommerce",
+      "experience": "4 years",
+      "copy": "Experience working with the Demandware (now Salesforce Commerce Cloud) eCommerce platform, during an internship with Lyons Consulting Group, where I became well versed in writing ISML and working in the Demandware Business Manager. Minimal experience with other eCommerce platforms such as Magento, and WordPress Woo Commerce.",
       "class": "ecommerce skill",
       "link": {
         "title": "eCommerce",
@@ -82,9 +84,9 @@
       }
     },
     "skill-7": {
-      "name": "Git",
+      "name": "Version Control",
       "experience": "4 years",
-      "copy": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "copy": "Experience working with various platforms for version control, including GitHub, GitLab, BitBucket, and SVN. Also well versed in proper branching strategies, to keep repositories clean, and easy to navigate.",
       "class": "git skill",
       "link": {
         "title": "Version Control",
@@ -94,7 +96,7 @@
     "skill-8": {
       "name": "Accessibility",
       "experience": "2 years",
-      "copy": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "copy": "Over the last two years I have become more aware of the importance of accessibility in web development. I am currently learning all I can about accessibility standards, and working to develop all of my sites - both personal and professional - to those standards.",
       "class": "accessibility skill",
       "link": {
         "title": "Accessibility",
@@ -104,7 +106,7 @@
     "skill-9": {
       "name": "Web Design",
       "experience": "7 years",
-      "copy": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "copy": "I have been dabbling in the design of my own personal projects, as well as the redesign of various other sites, sicne 2011. I believe all sites should provide a friendly user experience, and be easy to navigate, and believe this starts with the design.",
       "class": "webdesign skill",
       "link": {
         "title": "Web Design",
@@ -209,14 +211,14 @@
   "articles": {
     "article-01": {
       "id": "article-01",
-      "title": "New Site, Who Dis?",
-      "blurb": "In this day and age, it seems like everyone needs a website. And while I stress the importance to everyone else, I didn't have a proper site, myself. So I threw together an MVP in 72 hours. Let me show you how!",
+      "title": "Jessica Felts",
+      "blurb": "Front-end developer, and lover of beautifully designed, user-friendly technology.",
       "hero-img": "/images/articles/hero-01.jpg",
       "link": {
-        "path": "/articles/new-site-who-dis.html",
-        "title": "New Site, Who Dis?"
+        "path": "http://www.linkedin.com/in/thejessicafelts",
+        "title": "Jessica Felts on LinkedIn"
       },
-      "more": "Read the Article"
+      "more": "View my LinkedIn profile"
     }
   }
 }
